@@ -1,0 +1,42 @@
+BenchmarkDotNet requires dotnet cli toolchain to be installed, benchmark 'YieldBenchmarks.CreateStudents: DefaultJob' will not be executed
+BenchmarkDotNet requires dotnet cli toolchain to be installed, benchmark 'YieldBenchmarks.CreateStudentsYield: DefaultJob' will not be executed
+// ***** BenchmarkRunner: Start   *****
+// Found benchmarks:
+
+// Validating benchmarks:
+// ***** Building 0 benchmark(s) in Parallel: Start   *****
+// ***** Done, took 00:00:00 (0.13 sec)   *****
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\YieldBenchmarks-report.csv
+  BenchmarkDotNet.Artifacts\results\YieldBenchmarks-report-github.md
+  BenchmarkDotNet.Artifacts\results\YieldBenchmarks-report.html
+
+// * Detailed results *
+Total time: 00:00:00 (0.14 sec)
+
+// * Summary *
+
+BenchmarkDotNet=v0.10.12, OS=Windows 10.0.18362
+Unknown processor
+  [Host] : .NET Core 3.1.10 (Framework 3.1.10), 64bit RyuJIT DEBUG  [AttachedDebugger]
+
+There are no benchmarks found 
+
+
+// * Warnings *
+Environment
+  Summary -> Benchmark was executed with attached debugger
+
+// * Legends *
+  Mean      : Arithmetic mean of all measurements
+  Error     : Half of 99.9% confidence interval
+  Allocated : Allocated memory per single operation (managed only, inclusive, 1KB = 1024B)
+  1 ns      : 1 Nanosecond (0.000000001 sec)
+
+// * Diagnostic Output - MemoryDiagnoser *
+
+
+// ***** BenchmarkRunner: End *****
+// * Artifacts cleanup *

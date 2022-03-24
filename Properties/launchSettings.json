@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LinqYieldReturnBenchmark": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
